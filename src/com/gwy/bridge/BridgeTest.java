@@ -10,7 +10,7 @@ public class BridgeTest {
 		Driver driver2 = new DB2Driver();
 		
 		DriverManager driverManager = new MyDriverManager();
-		driverManager.setDriver(driver);
+		driverManager.setDriver(driver); 
 		driverManager.connect();
 		
 		driverManager.setDriver(driver2);
